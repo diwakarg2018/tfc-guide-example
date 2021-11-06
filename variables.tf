@@ -12,7 +12,7 @@ variable "instance_name" {
   description = "EC2 instance name"
   default     = "Provisioned by Terraform"
 }
-variable "subnet" {
+variable "subnet_id" {
   default = "10.0.0.0/24"
 }
 variable "cidr_block" {
